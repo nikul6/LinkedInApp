@@ -1,0 +1,22 @@
+{
+    "id": "u2",
+    "name": "Alex",
+    "position": "Software Engineer",
+    "image": "https://i.pravatar.cc/200",
+    "backImage": "https://fastly.picsum.photos/id/304/5000/3324.jpg?hmac=zUrtba_Jg3_6khk8Jo5AuycmUNZvGJeLJ_n72MHwyus",
+    "about": "Passionate software engineer with a keen interest in cutting-edge technologies and software development. Love solving complex problems and building innovative solutions.",
+    "experience": [
+      {
+        "id": "e1",
+        "title": "Senior Software Engineer",
+        "companyName": "TechCorp Innovations",
+        "companyImage": "https://plus.unsplash.com/premium_photo-1682140993556-f263e434000b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+      },
+      {
+        "id": "e2",
+        "title": "Software Engineer",
+        "companyName": "InnovaTech Solutions",
+        "companyImage": "https://fastly.picsum.photos/id/324/3888/2592.jpg?hmac=DZkyIS42bw6Me8jO8Q1TLdX2IGneZYRShExpmRrMiuU"
+      }
+    ]
+  }

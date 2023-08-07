@@ -11,4 +11,13 @@ export type User = {
     name: string;
     position: string;
     image?: string
+    backImage?: string;
+    about: string;
+}
+
+export type Experience = {
+    id: string;
+    title: string;
+    companyName: string;
+    companyImage: string;
 }
