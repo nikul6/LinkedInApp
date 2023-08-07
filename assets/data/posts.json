@@ -1,0 +1,144 @@
+[
+    {
+      "id": "2",
+      "author": {
+        "id": "u2",
+        "name": "Alex",
+        "position": "Software Engineer",
+        "image": "https://i.pravatar.cc/200"
+      },
+      "content": "Just finished working on an exciting new project! 🚀 Can't wait to see it in action. #SoftwareEngineering #TechLife",
+      "image": "https://fastly.picsum.photos/id/1/5000/3333.jpg?hmac=Asv2DU3rA_5D1xSe22xZK47WEAN0wjWeFOhzd13ujW4",
+      "likes": 348,
+      "comments": []
+    },
+    {
+      "id": "techco",
+      "author": {
+        "id": "u2",
+        "name": "TechCo Solutions",
+        "position": "Tech Solutions",
+        "image": "https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc"
+      },
+      "content": "TechCo Solutions is a leading technology company specializing in software development, AI, and cloud computing solutions.",
+      "image": "https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I",
+      "likes": 348,
+      "comments": []
+    },
+    {
+      "id": "1",
+      "author": {
+        "id": "u1",
+        "name": "Alice Johnson",
+        "position": "Marketing Specialist",
+        "image": "https://i.pravatar.cc/200"
+      },
+      "content": "Exciting news! Our company just hit a major milestone with record-breaking sales! 🎉 Thanks to the hard work of our amazing team! #AchievementUnlocked #TeamWork",
+      "likes": 254,
+      "comments": [
+        {
+          "user": {
+            "name": "David Lee",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "This is fantastic! Congratulations to the entire team!",
+          "timestamp": "2023-08-07T14:45:00Z"
+        },
+        {
+          "user": {
+            "name": "Emily Williams",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "I'm so proud to be a part of this team! Great job, everyone!",
+          "timestamp": "2023-08-07T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "author": {
+        "id": "u3",
+        "name": "Michael Williams",
+        "position": "Senior Software Engineer",
+        "image": "https://i.pravatar.cc/200"
+      },
+      "content": "Thrilled to announce the release of our latest product! 🚀 It's been an incredible journey for the team, and we can't wait for you to try it out! #ProductLaunch #Innovation",
+      "likes": 432,
+      "comments": []
+    },
+    {
+      "id": "4",
+      "author": {
+        "id": "u4",
+        "name": "Emma Roberts",
+        "position": "Marketing Manager",
+        "image": "https://i.pravatar.cc/200"
+      },
+      "content": "We are excited to announce our partnership with a prominent charity organization to support underprivileged children! 🤝 Together, we can make a difference! #CorporateSocialResponsibility #GivingBack",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      "likes": 586,
+      "comments": [
+        {
+          "user": {
+            "name": "Matthew Johnson",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "This is incredible news! Proud to be a part of a company that cares about making a positive impact.",
+          "timestamp": "2023-08-09T13:30:00Z"
+        },
+        {
+          "user": {
+            "name": "Olivia Smith",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "Kudos to the team! It's wonderful to see companies giving back to the community.",
+          "timestamp": "2023-08-09T14:15:00Z"
+        },
+        {
+          "user": {
+            "name": "William Davis",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "This is a fantastic initiative. Count me in for volunteering!",
+          "timestamp": "2023-08-09T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "author": {
+        "id": "u5",
+        "name": "James Johnson",
+        "position": "Lead Data Scientist",
+        "image": "https://i.pravatar.cc/200"
+      },
+      "content": "Our team just published a groundbreaking research paper in the field of artificial intelligence! 📚 Excited to contribute to the advancement of AI technology. #AIResearch #Innovation",
+      "likes": 743,
+      "comments": [
+        {
+          "user": {
+            "name": "Sophie Martin",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "Congratulations, James! Your team's work is truly inspiring.",
+          "timestamp": "2023-08-10T11:45:00Z"
+        },
+        {
+          "user": {
+            "name": "Daniel Wilson",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "This is incredible! I've been following your research closely. Amazing job!",
+          "timestamp": "2023-08-10T12:30:00Z"
+        },
+        {
+          "user": {
+            "name": "Lily Roberts",
+            "image": "https://i.pravatar.cc/200"
+          },
+          "comment": "I'm in awe of the work your team is doing. Keep pushing the boundaries of AI!",
+          "timestamp": "2023-08-10T13:15:00Z"
+        }
+      ]
+    }
+  ]
