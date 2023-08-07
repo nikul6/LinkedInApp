@@ -1,8 +1,9 @@
 import { useLocalSearchParams, useNavigation } from "expo-router";
-import { Text, View, Image, StyleSheet, Pressable } from "react-native";
+import { Text, View, Image, StyleSheet, Pressable, ScrollView } from "react-native";
 import userJson from '../../../assets/data/user.json';
 import { useLayoutEffect, useState } from "react";
 import { User } from "@/types";
+import ExperienceListItem from "@/components/ExperienceListItem";
 
 export default function UserProfile() {
     const [user, setUser] = useState<User>(userJson);
@@ -15,11 +16,11 @@ export default function UserProfile() {
     }
 
     useLayoutEffect(() => {
-        navigation.setOptions({title: user.name})
+        navigation.setOptions({ title: user.name })
     }, [user?.name])
 
     return (
-        <View style={styles.container}>
+        <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
             <View style={styles.header}>
                 <Image source={{ uri: user.backImage }} style={styles.backImage} />
                 <View style={styles.headerContent}>
@@ -35,7 +36,13 @@ export default function UserProfile() {
                 <Text style={styles.sectionTitle}>About</Text>
                 <Text style={styles.paragraph}>{user.about}</Text>
             </View>
-        </View>
+            <View style={styles.section}>
+                <Text style={styles.sectionTitle}>Experience</Text>
+                {user.experience?.map((experience) => (
+                    <ExperienceListItem key={experience.id} experience={experience} />
+                ))}
+            </View>
+        </ScrollView>
     )
 }
 
@@ -44,7 +51,9 @@ const styles = StyleSheet.create({
 
     },
     header: {
-
+        // backgroundColor:'green',
+        backgroundColor: '#fff',
+        marginBottom: 5
     },
     backImage: {
         width: '100%',
@@ -68,7 +77,7 @@ const styles = StyleSheet.create({
     },
     button: {
         // backgroundColor: 'green',
-        backgroundColor:'royalblue',
+        backgroundColor: 'royalblue',
         padding: 10,
         alignItems: 'center',
         borderRadius: 50,
@@ -81,7 +90,7 @@ const styles = StyleSheet.create({
     section: {
         backgroundColor: '#fff',
         padding: 10,
-        marginVertical: 10
+        marginVertical: 5
     },
     sectionTitle: {
         fontSize: 18,
