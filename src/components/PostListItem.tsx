@@ -51,11 +51,14 @@ const styles = StyleSheet.create({
     conatiner: {
         backgroundColor: '#fff',
         // backgroundColor:'green'
-        marginVertical: 10
+        width:'100%',
+        maxWidth:500,
+        alignSelf:'center'
     },
     header: {
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        padding:10
     },
     userName: {
         fontWeight: 'bold',
