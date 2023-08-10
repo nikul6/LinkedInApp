@@ -30,7 +30,7 @@ npx expo start
 
 ## 🚀 UI
 Post             |  PostDetails     |  UserProfile             |  CreatePost        |  Search     
--------------------------|-------------------------|-------------------------|-------------------------
+-------------------------|-------------------------|-------------------------|-------------------------|-------------------------
 ![alt text](https://github.com/nikul6/LinkedInApp/blob/main/assets/AppImages/Post.png)     |       ![alt text](https://github.com/nikul6/LinkedInApp/blob/main/assets/AppImages/PostDetails.png)      |        ![alt text](https://github.com/nikul6/LinkedInApp/blob/main/assets/AppImages/UserProfile.png)     |       ![alt text](https://github.com/nikul6/LinkedInApp/blob/main/assets/AppImages/CreatePost.png)       |       ![alt text](https://github.com/nikul6/LinkedInApp/blob/main/assets/AppImages/Search.png)
 
 ## 📝 Notes
